@@ -1,0 +1,10 @@
+Goal: Downloading tweets without stopping.
+
+This work is based on tweepy (a open-source Twitter Crawler).
+
+In our work, we extend tweepy to multi-thread safe version, and allow it to run permanently without stopping.
+(The process will kill itself and restart every hour)
+
+Note that even the Twitter service is unavailable, this version will keep trying without stopping.
+
+Author: Chu-Cheng Hsieh <chucheng at ucla dot edu>
